@@ -15,7 +15,10 @@
 		6B435744236507F200EFFDB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B435742236507F200EFFDB9 /* LaunchScreen.storyboard */; };
 		6B43574F236507F200EFFDB9 /* Drowsy_DrivingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43574E236507F200EFFDB9 /* Drowsy_DrivingTests.swift */; };
 		6B43575A236507F200EFFDB9 /* Drowsy_DrivingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B435759236507F200EFFDB9 /* Drowsy_DrivingUITests.swift */; };
-		6B4357682365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B4357672365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 */; };
+		6B43576F2365E21D00EFFDB9 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B43576E2365E21D00EFFDB9 /* screen1.png */; };
+		6B4357792365EBED00EFFDB9 /* TGFlingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4357782365EBED00EFFDB9 /* TGFlingActionButton.swift */; };
+		6B43577B2365ECD600EFFDB9 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B43577A2365ECD600EFFDB9 /* screen2.png */; };
+		6B4357832365F34700EFFDB9 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B4357822365F34700EFFDB9 /* alarm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +53,10 @@
 		6B435755236507F200EFFDB9 /* Drowsy DrivingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drowsy DrivingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B435759236507F200EFFDB9 /* Drowsy_DrivingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drowsy_DrivingUITests.swift; sourceTree = "<group>"; };
 		6B43575B236507F200EFFDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B4357672365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJ Airhorn Sound Effect.mp3"; sourceTree = "<group>"; };
+		6B43576E2365E21D00EFFDB9 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		6B4357782365EBED00EFFDB9 /* TGFlingActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGFlingActionButton.swift; sourceTree = "<group>"; };
+		6B43577A2365ECD600EFFDB9 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		6B4357822365F34700EFFDB9 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +110,14 @@
 				6B435737236507F100EFFDB9 /* AppDelegate.swift */,
 				6B435739236507F100EFFDB9 /* art.scnassets */,
 				6B43573B236507F100EFFDB9 /* ViewController.swift */,
+				6B4357782365EBED00EFFDB9 /* TGFlingActionButton.swift */,
 				6B43573D236507F100EFFDB9 /* Main.storyboard */,
 				6B435740236507F200EFFDB9 /* Assets.xcassets */,
 				6B435742236507F200EFFDB9 /* LaunchScreen.storyboard */,
+				6B43576E2365E21D00EFFDB9 /* screen1.png */,
+				6B43577A2365ECD600EFFDB9 /* screen2.png */,
 				6B435745236507F200EFFDB9 /* Info.plist */,
-				6B4357672365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 */,
+				6B4357822365F34700EFFDB9 /* alarm.mp3 */,
 			);
 			path = "Drowsy Driving";
 			sourceTree = "<group>";
@@ -235,10 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B4357682365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 in Resources */,
+				6B43576F2365E21D00EFFDB9 /* screen1.png in Resources */,
 				6B43573A236507F100EFFDB9 /* art.scnassets in Resources */,
 				6B435744236507F200EFFDB9 /* LaunchScreen.storyboard in Resources */,
+				6B43577B2365ECD600EFFDB9 /* screen2.png in Resources */,
 				6B435741236507F200EFFDB9 /* Assets.xcassets in Resources */,
+				6B4357832365F34700EFFDB9 /* alarm.mp3 in Resources */,
 				6B43573F236507F100EFFDB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B43573C236507F100EFFDB9 /* ViewController.swift in Sources */,
+				6B4357792365EBED00EFFDB9 /* TGFlingActionButton.swift in Sources */,
 				6B435738236507F100EFFDB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
