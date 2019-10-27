@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B435738236507F100EFFDB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B435737236507F100EFFDB9 /* AppDelegate.swift */; };
+		6B43573A236507F100EFFDB9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B435739236507F100EFFDB9 /* art.scnassets */; };
+		6B43573C236507F100EFFDB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43573B236507F100EFFDB9 /* ViewController.swift */; };
+		6B43573F236507F100EFFDB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B43573D236507F100EFFDB9 /* Main.storyboard */; };
+		6B435741236507F200EFFDB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B435740236507F200EFFDB9 /* Assets.xcassets */; };
+		6B435744236507F200EFFDB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B435742236507F200EFFDB9 /* LaunchScreen.storyboard */; };
+		6B43574F236507F200EFFDB9 /* Drowsy_DrivingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43574E236507F200EFFDB9 /* Drowsy_DrivingTests.swift */; };
+		6B43575A236507F200EFFDB9 /* Drowsy_DrivingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B435759236507F200EFFDB9 /* Drowsy_DrivingUITests.swift */; };
+		6B4357682365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B4357672365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B43574B236507F200EFFDB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B43572C236507F100EFFDB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B435733236507F100EFFDB9;
+			remoteInfo = "Drowsy Driving";
+		};
+		6B435756236507F200EFFDB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B43572C236507F100EFFDB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B435733236507F100EFFDB9;
+			remoteInfo = "Drowsy Driving";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B435734236507F100EFFDB9 /* Drowsy Driving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drowsy Driving.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B435737236507F100EFFDB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B435739236507F100EFFDB9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6B43573B236507F100EFFDB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B43573E236507F100EFFDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B435740236507F200EFFDB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B435743236507F200EFFDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B435745236507F200EFFDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B43574A236507F200EFFDB9 /* Drowsy DrivingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drowsy DrivingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B43574E236507F200EFFDB9 /* Drowsy_DrivingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drowsy_DrivingTests.swift; sourceTree = "<group>"; };
+		6B435750236507F200EFFDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B435755236507F200EFFDB9 /* Drowsy DrivingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drowsy DrivingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B435759236507F200EFFDB9 /* Drowsy_DrivingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drowsy_DrivingUITests.swift; sourceTree = "<group>"; };
+		6B43575B236507F200EFFDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B4357672365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJ Airhorn Sound Effect.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B435731236507F100EFFDB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B435747236507F200EFFDB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B435752236507F200EFFDB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B43572B236507F100EFFDB9 = {
+			isa = PBXGroup;
+			children = (
+				6B435736236507F100EFFDB9 /* Drowsy Driving */,
+				6B43574D236507F200EFFDB9 /* Drowsy DrivingTests */,
+				6B435758236507F200EFFDB9 /* Drowsy DrivingUITests */,
+				6B435735236507F100EFFDB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B435735236507F100EFFDB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B435734236507F100EFFDB9 /* Drowsy Driving.app */,
+				6B43574A236507F200EFFDB9 /* Drowsy DrivingTests.xctest */,
+				6B435755236507F200EFFDB9 /* Drowsy DrivingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B435736236507F100EFFDB9 /* Drowsy Driving */ = {
+			isa = PBXGroup;
+			children = (
+				6B435737236507F100EFFDB9 /* AppDelegate.swift */,
+				6B435739236507F100EFFDB9 /* art.scnassets */,
+				6B43573B236507F100EFFDB9 /* ViewController.swift */,
+				6B43573D236507F100EFFDB9 /* Main.storyboard */,
+				6B435740236507F200EFFDB9 /* Assets.xcassets */,
+				6B435742236507F200EFFDB9 /* LaunchScreen.storyboard */,
+				6B435745236507F200EFFDB9 /* Info.plist */,
+				6B4357672365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 */,
+			);
+			path = "Drowsy Driving";
+			sourceTree = "<group>";
+		};
+		6B43574D236507F200EFFDB9 /* Drowsy DrivingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B43574E236507F200EFFDB9 /* Drowsy_DrivingTests.swift */,
+				6B435750236507F200EFFDB9 /* Info.plist */,
+			);
+			path = "Drowsy DrivingTests";
+			sourceTree = "<group>";
+		};
+		6B435758236507F200EFFDB9 /* Drowsy DrivingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B435759236507F200EFFDB9 /* Drowsy_DrivingUITests.swift */,
+				6B43575B236507F200EFFDB9 /* Info.plist */,
+			);
+			path = "Drowsy DrivingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B435733236507F100EFFDB9 /* Drowsy Driving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B43575E236507F200EFFDB9 /* Build configuration list for PBXNativeTarget "Drowsy Driving" */;
+			buildPhases = (
+				6B435730236507F100EFFDB9 /* Sources */,
+				6B435731236507F100EFFDB9 /* Frameworks */,
+				6B435732236507F100EFFDB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drowsy Driving";
+			productName = "Drowsy Driving";
+			productReference = 6B435734236507F100EFFDB9 /* Drowsy Driving.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B435749236507F200EFFDB9 /* Drowsy DrivingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B435761236507F200EFFDB9 /* Build configuration list for PBXNativeTarget "Drowsy DrivingTests" */;
+			buildPhases = (
+				6B435746236507F200EFFDB9 /* Sources */,
+				6B435747236507F200EFFDB9 /* Frameworks */,
+				6B435748236507F200EFFDB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B43574C236507F200EFFDB9 /* PBXTargetDependency */,
+			);
+			name = "Drowsy DrivingTests";
+			productName = "Drowsy DrivingTests";
+			productReference = 6B43574A236507F200EFFDB9 /* Drowsy DrivingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B435754236507F200EFFDB9 /* Drowsy DrivingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B435764236507F200EFFDB9 /* Build configuration list for PBXNativeTarget "Drowsy DrivingUITests" */;
+			buildPhases = (
+				6B435751236507F200EFFDB9 /* Sources */,
+				6B435752236507F200EFFDB9 /* Frameworks */,
+				6B435753236507F200EFFDB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B435757236507F200EFFDB9 /* PBXTargetDependency */,
+			);
+			name = "Drowsy DrivingUITests";
+			productName = "Drowsy DrivingUITests";
+			productReference = 6B435755236507F200EFFDB9 /* Drowsy DrivingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B43572C236507F100EFFDB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Ethan Wong";
+				TargetAttributes = {
+					6B435733236507F100EFFDB9 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					6B435749236507F200EFFDB9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 6B435733236507F100EFFDB9;
+					};
+					6B435754236507F200EFFDB9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 6B435733236507F100EFFDB9;
+					};
+				};
+			};
+			buildConfigurationList = 6B43572F236507F100EFFDB9 /* Build configuration list for PBXProject "Drowsy Driving" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B43572B236507F100EFFDB9;
+			productRefGroup = 6B435735236507F100EFFDB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B435733236507F100EFFDB9 /* Drowsy Driving */,
+				6B435749236507F200EFFDB9 /* Drowsy DrivingTests */,
+				6B435754236507F200EFFDB9 /* Drowsy DrivingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B435732236507F100EFFDB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4357682365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 in Resources */,
+				6B43573A236507F100EFFDB9 /* art.scnassets in Resources */,
+				6B435744236507F200EFFDB9 /* LaunchScreen.storyboard in Resources */,
+				6B435741236507F200EFFDB9 /* Assets.xcassets in Resources */,
+				6B43573F236507F100EFFDB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B435748236507F200EFFDB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B435753236507F200EFFDB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B435730236507F100EFFDB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43573C236507F100EFFDB9 /* ViewController.swift in Sources */,
+				6B435738236507F100EFFDB9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B435746236507F200EFFDB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43574F236507F200EFFDB9 /* Drowsy_DrivingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B435751236507F200EFFDB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43575A236507F200EFFDB9 /* Drowsy_DrivingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B43574C236507F200EFFDB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B435733236507F100EFFDB9 /* Drowsy Driving */;
+			targetProxy = 6B43574B236507F200EFFDB9 /* PBXContainerItemProxy */;
+		};
+		6B435757236507F200EFFDB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B435733236507F100EFFDB9 /* Drowsy Driving */;
+			targetProxy = 6B435756236507F200EFFDB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B43573D236507F100EFFDB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B43573E236507F100EFFDB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B435742236507F200EFFDB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B435743236507F200EFFDB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B43575C236507F200EFFDB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B43575D236507F200EFFDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B43575F236507F200EFFDB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M2294NU49;
+				INFOPLIST_FILE = "Drowsy Driving/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.keth.Drowsy-Driving";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B435760236507F200EFFDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M2294NU49;
+				INFOPLIST_FILE = "Drowsy Driving/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.keth.Drowsy-Driving";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B435762236507F200EFFDB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M2294NU49;
+				INFOPLIST_FILE = "Drowsy DrivingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.keth.Drowsy-DrivingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drowsy Driving.app/Drowsy Driving";
+			};
+			name = Debug;
+		};
+		6B435763236507F200EFFDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M2294NU49;
+				INFOPLIST_FILE = "Drowsy DrivingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.keth.Drowsy-DrivingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drowsy Driving.app/Drowsy Driving";
+			};
+			name = Release;
+		};
+		6B435765236507F200EFFDB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M2294NU49;
+				INFOPLIST_FILE = "Drowsy DrivingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.keth.Drowsy-DrivingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Drowsy Driving";
+			};
+			name = Debug;
+		};
+		6B435766236507F200EFFDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M2294NU49;
+				INFOPLIST_FILE = "Drowsy DrivingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.keth.Drowsy-DrivingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Drowsy Driving";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B43572F236507F100EFFDB9 /* Build configuration list for PBXProject "Drowsy Driving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43575C236507F200EFFDB9 /* Debug */,
+				6B43575D236507F200EFFDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B43575E236507F200EFFDB9 /* Build configuration list for PBXNativeTarget "Drowsy Driving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43575F236507F200EFFDB9 /* Debug */,
+				6B435760236507F200EFFDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B435761236507F200EFFDB9 /* Build configuration list for PBXNativeTarget "Drowsy DrivingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B435762236507F200EFFDB9 /* Debug */,
+				6B435763236507F200EFFDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B435764236507F200EFFDB9 /* Build configuration list for PBXNativeTarget "Drowsy DrivingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B435765236507F200EFFDB9 /* Debug */,
+				6B435766236507F200EFFDB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B43572C236507F100EFFDB9 /* Project object */;
+}
